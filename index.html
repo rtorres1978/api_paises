@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,600;6..12,800&family=Raleway:ital,wght@0,100;0,200;1,100;1,200&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,300;1,6..12,200;1,6..12,400;1,6..12,500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/custom-select.css">
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container navbar-content">
+        <h1>Where in the word?</h1>
+        <button type="button" class="btn-dark-mode">
+         
+          <i class="fa-regular fa-moon"></i>
+          Dart Mode</button>
+      </div>
+    </nav>
+
+    <header class="container filter-content my-2"> 
+      <!--FORMULARIO-->
+    <form class="form-search" id="formulario">
+      <i class="fa-solid fa-magnifying-glass"></i>
+     <input type="text" placeholder="Ingresa Pais" id="input-formulario">
+    </form>
+    <div class="custom-select" style="width:200px;">
+      
+   <select >
+   <option value="">-- Filtrar la Religion --</option>
+   <option value="">-- Todos --</option>
+   <option value="Africa">Africa</option>
+   <option value="Americas">Americas</option>
+   <option value="Asia">Asia</option>
+   <option value="Europe">Europe</option>
+   <option value="Oceania">Oceania</option>
+    </select>
+  </div>
+
+    </header>
+
+  <main class="container grid" id="banderas">
+  
+  </main>
+ <script src="/js/dark-mode.js"></script>
+ <script src="/js/app.js"></script>
+ <script src="/js/custom-select.js"></script>
+ <script src="/js/formulario.js"></script>
+  </body>
+</html>
